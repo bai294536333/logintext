@@ -2,6 +2,7 @@
 // 登陆页注册页跳转
 	var menubtn=document.querySelectorAll('.login_box .head div');
 	var option=document.querySelectorAll('.login_box .table');
+	option[1].style.display='none';
 	for (var i = 0; i < menubtn.length; i++) {
 		menubtn[i].index=i;
 		menubtn[i].addEventListener('touchstart',function(){
